@@ -541,8 +541,14 @@ html, body{
     .review-item {
         padding: 20px;
     }
-    .feedback-one, .feedback-two, .feedback-three, .feedback-four  {
+    .feedback-one, .feedback-three  {
         background:#b8aa9f;
+        border-radius: 10px;
+        height: 300px;
+        display: block;
+    }
+    .feedback-four, .feedback-two {
+        background:white;
         border-radius: 10px;
         height: 300px;
         display: block;
@@ -552,8 +558,14 @@ html, body{
     .review-item {
         padding: 50px;
     }
-    .feedback-one, .feedback-two, .feedback-three, .feedback-four  {
+    .feedback-one, .feedback-three  {
         background:#b8aa9f;
+        border-radius: 10px;
+        height: 300px;
+        display: block;
+    }
+    .feedback-four, .feedback-two {
+        background:white;
         border-radius: 10px;
         height: 300px;
         display: block;
