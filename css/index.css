@@ -524,8 +524,14 @@ html, body{
     border-radius: 50%;
 }
 @media (max-width: 768px){
-    .feedback-one, .feedback-two, .feedback-three, .feedback-four  {
+    .feedback-one, .feedback-three  {
         background:#b8aa9f;
+        border-radius: 10px;
+        height: 350px;
+        display: block;
+    }
+    .feedback-four, .feedback-two {
+        background:white;
         border-radius: 10px;
         height: 350px;
         display: block;
