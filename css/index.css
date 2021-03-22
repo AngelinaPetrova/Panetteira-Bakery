@@ -326,83 +326,151 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
 }
-.value{
+.wrapper-for{
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--accent-color);
+}
+.for-container{
     max-width: 1270px;
     margin: 0px auto;
-    padding: 0px 50px 50px 50px;
+    padding: 50px 50px;
 }
-#value-header{
-    font-size: 35px;
-    padding-top: 60px;
+#for-header{
+    font-size: 34px;
+    color: black;
+    font-family: 'Prata', serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Prata', serif;
+    margin-bottom: 50px;
 }
-.values{
+.for-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.value-div{
+.type-for{
+    display: block;
+    justify-content: center;
     width: 30%;
-    min-width: 300px;
+    min-width: 200px;
+    margin: 0 10px;
 }
-.value-div span{
+.type-for img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.type-header{
     font-size: 25px;
     font-family: 'Prata', serif;
     text-align: center;
-    padding-bottom: 0px;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
 }
-.value-div p{
+.type-textt{
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
+    color: black;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: -20px;
+    line-height: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
 }
-@media (max-width: 375px) {
-    #value-header{
-        font-size: 24px;
-        padding-top: 60px;
-        text-align: center;
-        font-family: 'Prata', serif;
+@media (max-width:443px){
+    #for-header{
+        font-size: 32px;
     }
-    .value-div span{
-        font-size: 20px;
-        font-family: 'Prata', serif;
-        text-align: center;
+    .for-list{
+        display: block;
+        justify-content: center;
+    }
+    .for-list{
         display: flex;
-        padding-bottom: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .type-for{
+        display: block;
+        justify-content: center;
+        width: 30%;
+        min-width: 200px;
+        margin: 0;
+    }
+    .type-text{
+        margin-bottom: 10px;
+        margin: 10px;
+    }
+}
+@media (max-width:424px){
+    #for-header{
+        font-size: 30px;
+    }
+}
+@media (max-width:402px){
+    #for-header{
+        font-size: 28px;
+    }
+}
+@media (max-width:388px){
+    #for-header{
+        font-size: 27px;
+    }
+}
+@media (max-width: 375px){
+    #for-header{
+        font-size: 25px;
+    }
+    .for-list{
+        display: block;
+        justify-content: center;
+    }
+    .for-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .type-for{
+        display: block;
+        justify-content: center;
+        width: 30%;
+        min-width: 200px;
+    }
+    .type-text{
+        margin-bottom: 10px;
         padding: 0;
         margin: 10px;
     }
-    .value-div p{
-        font-size: 15px;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 5px;
+}
+@media (max-width:355px){
+    #for-header{
+        font-size: 20px;
     }
-}
-@media (min-width: 375px){
-     .value-div{
-         display: grid;
-         grid-template-rows: 1fr 1fr;
-         grid-gap: 10px;
-     }
-}
-  @media (min-width: 769px){
-     .value-div{
-         grid-template-rows: 1fr 1fr 1fr;
-     }
-}
-#value-header{
-    margin-bottom: 40px; 
+    .for-list{
+        display: block;
+        justify-content: center;
+    }
+    .for-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .type-for{
+        display: block;
+        justify-content: center;
+        width: 30%;
+        min-width: 200px;
+    }
+    .type-text{
+        margin-bottom: 10px;
+        padding: 0;
+        margin: 10px;
+    }
 }
 .our-reviews {
     background-image: url(../images/breads.jpg);
@@ -523,7 +591,7 @@ html, body{
     background-color: white;
     border-radius: 50%;
 }
-@media (max-width: 768px){
+@media (max-width: 674px){
     .feedback-one, .feedback-three  {
         background:#b8aa9f;
         border-radius: 10px;
